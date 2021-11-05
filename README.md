@@ -26,5 +26,5 @@ numpy
 
 Additionally, FASTRAL-constrained runs two versions of ASTRAL (so it requires a Java version that can run ASTRAL),
 the ASTRAL from FASTRAL (that allows specifying the search space `X`, from https://github.com/PayamDiba/FASTRAL), and the ASTRAL
-from constrained ASTRAL (a branched version of ASTRAL, available from https://github.com/RuneBlaze/Constrained-search).
+from constrained ASTRAL (a branched version of ASTRAL. I further modified it to expose some of its subroutines, available at https://github.com/RuneBlaze/Constrained-search).
 These two ASTRALs are prepackaged in this repository.
