@@ -2,10 +2,10 @@ import argparse
 import os
 import asterid as ad
 import numpy as np
-from os.path import join
+from os.path import join, dirname
 
-ASTRALMPATH = join(os.path.realpath(__file__), "astral.5.7.3.modified.jar")
-ASTRALJPATH = join(os.path.realpath(__file__), "astral.5.6.9.jar")
+ASTRALMPATH = join(dirname(os.path.realpath(__file__)), "astral.5.7.3.modified.jar")
+ASTRALJPATH = join(dirname(os.path.realpath(__file__)), "astral.5.6.9.jar")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", type=str,

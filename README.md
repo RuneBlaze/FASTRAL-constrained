@@ -21,6 +21,7 @@ FASTRAL-constrained requires the following packages from pip:
 ```python3
 asterid # currently for Linux x86_64 only
 treeswift # we used v1.1.19, although latest stable version likely also works
+numpy
 ```
 
 Additionally, FASTRAL-constrained runs two versions of ASTRAL (so it requires a Java version that can run ASTRAL),
